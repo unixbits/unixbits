@@ -1,9 +1,19 @@
 - title: Linux kernel documentation
   url: https://docs.kernel.org/
   description: Official kernel documentation
+  topics:
+    - linux-internals
+    - real-time-linux
+
 - title: Linux man-pages project
   url: https://man7.org/linux/man-pages/
   description: System calls and interfaces
+  topics:
+    - linux-internals
+    - unix-tools
+
 - title: FreeBSD Handbook
   url: https://docs.freebsd.org/en/books/handbook/
   description: A comprehensive BSD reference
+  topics:
+    - bsd-unix

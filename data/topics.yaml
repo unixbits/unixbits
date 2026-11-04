@@ -3,7 +3,7 @@
   icon: '⌘'
   color: blue
   description: Processes, scheduling, memory, and the machinery beneath user space.
-  url: articles/
+  url: topics/linux-internals/
 
 - title: BSD & Unix
   icon: '⌁'

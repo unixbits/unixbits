@@ -1,0 +1,72 @@
+{{ define "main" }}
+{{ $topic := .File.ContentBaseName }}
+
+<main class="wrap topic-page">
+  <div class="eyebrow">EXPLORE UNIXBITS</div>
+  <h1>{{ .Title }}</h1>
+  <p class="topic-intro">{{ .Description }}</p>
+
+  <div class="topic-body">
+    {{ .Content }}
+  </div>
+
+  {{ $articles := slice }}
+  {{ $companions := slice }}
+
+  {{ range site.RegularPages }}
+    {{ if in (.Params.topics | default (slice)) $topic }}
+      {{ if eq .Section "articles" }}
+        {{ $articles = $articles | append . }}
+      {{ else if eq .Section "companions" }}
+        {{ $companions = $companions | append . }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+
+  {{ with $articles }}
+  <section class="topic-section">
+    <h2>Original articles</h2>
+    {{ range .ByTitle }}
+    <article class="topic-entry">
+      <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+      <p>{{ .Description }}</p>
+    </article>
+    {{ end }}
+  </section>
+  {{ end }}
+
+  {{ $reading := slice }}
+  {{ range site.Data.reading }}
+    {{ if in (.topics | default (slice)) $topic }}
+      {{ $reading = $reading | append . }}
+    {{ end }}
+  {{ end }}
+
+  {{ with $reading }}
+  <section class="topic-section">
+    <h2>Selected reading</h2>
+    {{ range . }}
+    <article class="topic-entry">
+      <h3><a href="{{ .url }}" target="_blank"
+        rel="noopener noreferrer">{{ .title }} ↗</a></h3>
+      <p>{{ .description }}</p>
+    </article>
+    {{ end }}
+  </section>
+  {{ end }}
+
+  {{ with $companions }}
+  <section class="topic-section">
+    <h2>Book companions</h2>
+    {{ range .ByTitle }}
+    <article class="topic-entry">
+      <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+      <p>{{ .Description }}</p>
+    </article>
+    {{ end }}
+  </section>
+  {{ end }}
+
+  <p class="topic-back"><a href="{{ "/" | relURL }}">← Back to UnixBits</a></p>
+</main>
+{{ end }}

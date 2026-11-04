@@ -1,4 +1,6 @@
 ---
+topics:
+  - linux-internals
 title: "Linux namespaces: a process with its own view"
 description: "Start with a small experiment and see how a process can inhabit a different PID namespace."
 label: "LINUX INTERNALS · PRACTICAL LAB"
