@@ -1,0 +1,1 @@
+{{ define "main" }}<section class="wrap listing"><div class="eyebrow">UNIXBITS LIBRARY</div><h1>{{ .Title }}</h1>{{ .Content }}{{ range .Pages.ByTitle }}<article class="listing-item"><h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2><p>{{ .Description }}</p></article>{{ end }}</section>{{ end }}

@@ -1,0 +1,9 @@
+- title: Linux kernel documentation
+  url: https://docs.kernel.org/
+  description: Official kernel documentation
+- title: Linux man-pages project
+  url: https://man7.org/linux/man-pages/
+  description: System calls and interfaces
+- title: FreeBSD Handbook
+  url: https://docs.freebsd.org/en/books/handbook/
+  description: A comprehensive BSD reference

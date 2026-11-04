@@ -1,0 +1,9 @@
+# Hugo generated website
+/public/
+/resources/_gen/
+/.hugo_build.lock
+
+# Editor and temporary files
+*~
+*.swp
+*.bak

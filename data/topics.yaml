@@ -1,0 +1,37 @@
+
+- title: Linux Internals
+  icon: '⌘'
+  color: blue
+  description: Processes, scheduling, memory, and the machinery beneath user space.
+  url: articles/
+
+- title: BSD & Unix
+  icon: '⌁'
+  color: lilac
+  description: Explore the ideas, implementations, and traditions beyond Linux.
+  url: topics/bsd-unix/
+
+- title: Unix History
+  icon: '⌛'
+  color: mint
+  description: The people, inventions, and decisions that shaped Unix.
+  url: topics/unix-history/
+
+- title: Unix Tools
+  icon: '{ }'
+  color: peach
+  description: Small programs, sharp interfaces, and the power of composition.
+  url: topics/unix-tools/
+
+- title: Real-Time Linux
+  icon: '⏱'
+  color: sand
+  description: PREEMPT_RT, scheduling latency, and deterministic execution.
+  url: topics/real-time-linux/
+
+- title: Reading Room
+  icon: '↗'
+  color: slate
+  description: Documentation, essays, and projects worth your attention.
+  url: '#reading'
+
