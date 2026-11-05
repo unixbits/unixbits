@@ -8,6 +8,3 @@ latency rather than simply maximising throughput.
 
 This section will explore PREEMPT_RT, kernel preemption,
 scheduling, latency measurement, and practical experiments.
-
-Original articles and curated technical references will
-be added here.
