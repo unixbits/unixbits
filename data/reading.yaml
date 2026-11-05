@@ -17,3 +17,33 @@
   description: A comprehensive BSD reference
   topics:
     - bsd-unix
+
+- title: "EEVDF Scheduler — Linux Kernel Documentation"
+  url: https://docs.kernel.org/scheduler/sched-eevdf.html
+  description: "Linux scheduling is an evolving design, not a settled algorithm. EEVDF uses virtual deadlines to balance fairness and responsiveness, offering an interesting comparison with the older Completely Fair Scheduler."
+  topics:
+    - linux-internals
+
+- title: "Page Tables — Linux Kernel Documentation"
+  url: https://docs.kernel.org/mm/page_tables.html
+  description: "An exploration of the machinery behind virtual memory, address translation, page tables and page faults, including the interaction between hardware and the kernel."
+  topics:
+    - linux-internals
+
+- title: "Anatomy of a System Call, Part 1 — LWN.net"
+  url: https://lwn.net/Articles/604287/
+  description: "A journey from user space into the kernel, revealing the architecture-specific machinery behind a seemingly simple system call. Older, but valuable for understanding the underlying mechanisms."
+  topics:
+    - linux-internals
+
+- title: "namespaces(7) — Linux man-pages"
+  url: https://man7.org/linux/man-pages/man7/namespaces.7.html
+  description: "Containers are built from kernel mechanisms rather than a separate operating-system layer. This reference explains how namespaces isolate resources and how processes create, enter and inspect them."
+  topics:
+    - linux-internals
+
+- title: "Core API Documentation — Linux Kernel Documentation"
+  url: https://docs.kernel.org/core-api/index.html
+  description: "A gateway into the kernel's internal programming interfaces, data structures and concurrency mechanisms. A useful reference map for exploring how Linux is implemented."
+  topics:
+    - linux-internals
