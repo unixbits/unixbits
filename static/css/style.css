@@ -68,3 +68,13 @@
 .topic-back {
   margin-top: 60px;
 }
+
+/* Actual Leanpub book cover */
+.book-cover {
+  display: block;
+  width: 150px;
+  max-width: 100%;
+  height: auto;
+  margin: 23px 0;
+  box-shadow: 8px 10px 18px #12314d2e;
+}
