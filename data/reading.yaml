@@ -112,3 +112,35 @@
   description: "A broader historical perspective on Unix's journey from Bell Labs research to universities, commercial implementations and standardisation. Useful for understanding how Unix developed into a family of related operating systems."
   topics:
     - unix-history
+
+- title: "The A–Z of Programming Languages: AWK"
+  url: https://a-z.readthedocs.io/en/latest/awk.html
+  description: "One of AWK's creators, Alfred Aho, explains how the need for small data-processing programs led to a remarkably expressive language. Particularly interesting is the progression from pattern matching to AWK's pattern-action programming model."
+  topics:
+    - unix-tools
+    - unix-history
+
+- title: "Getting Started with AWK — GNU Awk User's Guide"
+  url: https://www.gnu.org/software/gawk/manual/html_node/Getting-Started.html
+  description: "AWK is more than a text-filtering utility: it is a compact, data-driven programming language. Records, patterns and actions combine to solve problems that might otherwise require substantially more code."
+  topics:
+    - unix-tools
+
+- title: "GNU sed — A Stream Editor"
+  url: https://www.gnu.org/software/sed/manual/sed.html
+  description: "Sed illustrates the Unix idea of transforming data as it flows through a pipeline. Beyond simple substitutions, its pattern space and hold space provide a surprisingly capable model for scripted text transformations."
+  topics:
+    - unix-tools
+
+- title: "Pipelines — Bash Reference Manual"
+  url: https://www.gnu.org/software/bash/manual/html_node/Pipelines.html
+  description: "The pipe character looks simple, but its execution semantics deserve attention. This reference explains how commands are connected, when subshells are involved and how pipeline exit status works."
+  topics:
+    - unix-tools
+
+- title: "Program Design in the UNIX Environment"
+  url: https://lists.gnu.org/archive/html/nmh-workers/2013-04/pdfkOFYrARx70.pdf
+  description: "Rob Pike and Brian Kernighan's influential 1984 paper argues that a program's usefulness depends not just on its individual capabilities, but on how well it combines with other programs. Its criticism of unnecessary complexity remains relevant."
+  topics:
+    - unix-tools
+    - unix-history
