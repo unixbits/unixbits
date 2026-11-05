@@ -1,4 +1,4 @@
-baseURL = 'https://unixbits.github.io/unixbits/'
+baseURL = 'https://unixbits.github.io/'
 languageCode = 'en-au'
 title = 'UnixBits'
 disableKinds = ['taxonomy', 'term', 'RSS']
