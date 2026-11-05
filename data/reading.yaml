@@ -47,3 +47,36 @@
   description: "A gateway into the kernel's internal programming interfaces, data structures and concurrency mechanisms. A useful reference map for exploring how Linux is implemented."
   topics:
     - linux-internals
+
+- title: "FreeBSD Architecture Handbook"
+  url: https://docs.freebsd.org/en/books/arch-handbook/
+  description: "A look inside a complete BSD operating system, covering kernel initialization, virtual memory, locking, device drivers and jails. Particularly useful for comparing FreeBSD's implementation choices with those of Linux."
+  topics:
+    - bsd-unix
+
+- title: "OpenBSD Security"
+  url: https://www.openbsd.org/security.html
+  description: "OpenBSD's distinctive approach to operating-system engineering: proactive code auditing, secure defaults and systematic removal of vulnerabilities. An interesting study of how engineering priorities shape an entire operating system."
+  topics:
+    - bsd-unix
+
+- title: "NetBSD — Portability and Supported Hardware"
+  url: https://www.netbsd.org/about/portability.html
+  description: "NetBSD treats portability as an architectural discipline, separating machine-independent code from hardware-specific implementations. A demonstration of how careful abstraction supports radically different computer architectures."
+  topics:
+    - bsd-unix
+
+- title: "Creating a Programming Philosophy from Pipes and a Tool Box"
+  url: https://www.nokia.com/bell-labs/unix-history/philosophy.html
+  description: "Pipes transformed individual Unix utilities into components that could be combined interactively. An account of how a simple technical mechanism helped shape an enduring approach to software design."
+  topics:
+    - bsd-unix
+    - unix-history
+    - unix-tools
+
+- title: "Explaining BSD"
+  url: https://docs.freebsd.org/en/articles/explaining-bsd/
+  description: "What distinguishes BSD from Linux beyond the kernel and licensing? A discussion of development organisation, source-tree integration and the BSD projects. Some comparisons also provide a useful historical perspective."
+  topics:
+    - bsd-unix
+    - unix-history
