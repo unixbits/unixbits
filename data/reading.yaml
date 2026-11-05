@@ -80,3 +80,35 @@
   topics:
     - bsd-unix
     - unix-history
+
+- title: "The UNIX Time-Sharing System — A Retrospective"
+  url: https://www.nokia.com/bell-labs/about/dennis-m-ritchie/retro.html
+  description: "Dennis Ritchie looks back at Unix's strengths and weaknesses, including files, processes, the shell, reliability and security. Fascinating because it discusses design limitations from the perspective of someone who created the system."
+  topics:
+    - unix-history
+
+- title: "The UNIX Time-Sharing System"
+  url: https://www.nokia.com/bell-labs/about/dennis-m-ritchie/cacm.html
+  description: "The foundational paper by Ritchie and Thompson describing Unix's filesystem, processes and command interface. Remarkable for how many of its central ideas remain recognisable in modern Unix-like systems."
+  topics:
+    - unix-history
+    - bsd-unix
+
+- title: "The Evolution of the Unix Time-Sharing System"
+  url: https://pdos.lcs.mit.edu/6.828/2005/readings/ritchie79evolution.html
+  description: "Ritchie's firsthand account of Unix's origins, from Multics to the development of filesystems, process control and pipes. Particularly interesting for the interplay between technical invention, available hardware and Bell Labs culture."
+  topics:
+    - unix-history
+
+- title: "The Development of the C Language"
+  url: https://www.nokia.com/bell-labs/about/dennis-m-ritchie/chist.html
+  description: "C and Unix evolved together. Ritchie traces the progression from BCPL through B to C, explaining how early hardware constraints and the requirements of systems programming shaped the language."
+  topics:
+    - unix-history
+    - unix-tools
+
+- title: "History of UNIX — The Open Group"
+  url: https://www.unix.org/unix_history.html
+  description: "A broader historical perspective on Unix's journey from Bell Labs research to universities, commercial implementations and standardisation. Useful for understanding how Unix developed into a family of related operating systems."
+  topics:
+    - unix-history
