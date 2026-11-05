@@ -1,0 +1,48 @@
+{{ define "main" }}
+<main class="wrap topic-page">
+
+  <div class="eyebrow">UNIXBITS LIBRARY</div>
+  <h1>{{ .Title }}</h1>
+  <p class="topic-intro">{{ .Description }}</p>
+
+  <div class="topic-body">
+    {{ .Content }}
+  </div>
+
+  <section class="topic-section">
+    <h2>Original articles</h2>
+
+    {{ $articles := where site.RegularPages "Section" "articles" }}
+
+    {{ range $articles.ByTitle }}
+    <article class="topic-entry">
+      <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+      <p>{{ .Description }}</p>
+    </article>
+    {{ else }}
+    <p>No articles available yet.</p>
+    {{ end }}
+  </section>
+
+  <section class="topic-section">
+    <h2>Selected external reading</h2>
+
+    {{ range site.Data.reading }}
+    <article class="topic-entry">
+      <h3>
+        <a href="{{ .url }}" target="_blank"
+           rel="noopener noreferrer">{{ .title }} ↗</a>
+      </h3>
+      <p>{{ .description }}</p>
+    </article>
+    {{ else }}
+    <p>No external resources available yet.</p>
+    {{ end }}
+  </section>
+
+  <p class="topic-back">
+    <a href="{{ "/" | relURL }}">← Back to UnixBits</a>
+  </p>
+
+</main>
+{{ end }}

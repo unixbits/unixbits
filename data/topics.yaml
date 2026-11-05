@@ -33,5 +33,5 @@
   icon: '↗'
   color: slate
   description: Documentation, essays, and projects worth your attention.
-  url: '#reading'
+  url: reading/
 
