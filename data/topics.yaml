@@ -8,14 +8,14 @@
 - title: BSD & Unix
   icon: '⌁'
   color: lilac
-  description: Explore the ideas, implementations, and traditions beyond Linux.
+  description: Explore BSD systems, Unix traditions, and the history behind them.
   url: topics/bsd-unix/
 
-- title: Unix History
-  icon: '⌛'
+- title: Book Companions
+  icon: '▤'
   color: mint
-  description: The people, inventions, and decisions that shaped Unix.
-  url: topics/unix-history/
+  description: Chapter supplements, experiments, and further reading for the book.
+  url: companions/
 
 - title: Unix Tools
   icon: '{ }'
