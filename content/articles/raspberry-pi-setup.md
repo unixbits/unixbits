@@ -5,6 +5,7 @@ topics:
   - real-time-linux
   - linux-internals
 reading_room: true
+weight: 10
 ---
 
 A Raspberry Pi is a useful platform for exploring Linux internals. It runs a conventional Linux kernel, provides direct access to hardware interfaces, and can be controlled entirely from a remote terminal.

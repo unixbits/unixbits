@@ -5,6 +5,7 @@ topics:
   - real-time-linux
   - linux-internals
 reading_room: true
+weight: 30
 ---
 
 *Controlling a Raspberry Pi GPIO pin and verifying its electrical output.*

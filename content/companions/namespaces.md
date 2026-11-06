@@ -8,6 +8,7 @@ reading_room: true
 featured: true
 visual: visual-one
 book_chapter: "Chapter 8 — Containers"
+weight: 1000
 ---
 
 A Linux process normally sees the host's process-ID space: PID 1, other users' processes (subject to permissions), and the processes it starts itself. **PID namespaces** allow a group of processes to see a different numbering of processes, beginning with their own PID 1.

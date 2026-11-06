@@ -5,6 +5,7 @@ topics:
   - real-time-linux
   - linux-internals
 reading_room: true
+weight: 20
 ---
 
 *Inspecting kernel preemption on a Raspberry Pi 4.*
