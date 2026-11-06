@@ -5,11 +5,11 @@
   description: Processes, scheduling, memory, and the machinery beneath user space.
   url: topics/linux-internals/
 
-- title: BSD & Unix
-  icon: '⌁'
-  color: lilac
-  description: Explore BSD systems, Unix traditions, and the history behind them.
-  url: topics/bsd-unix/
+- title: Unix Tools
+  icon: '{ }'
+  color: peach
+  description: Small programs, sharp interfaces, and the power of composition.
+  url: topics/unix-tools/
 
 - title: Book Companions
   icon: '▤'
@@ -17,11 +17,11 @@
   description: Chapter supplements, experiments, and further reading for the book.
   url: companions/
 
-- title: Unix Tools
-  icon: '{ }'
-  color: peach
-  description: Small programs, sharp interfaces, and the power of composition.
-  url: topics/unix-tools/
+- title: BSD & Unix
+  icon: '⌁'
+  color: lilac
+  description: Explore BSD systems, Unix traditions, and the history behind them.
+  url: topics/bsd-unix/
 
 - title: Real-Time Linux
   icon: '⏱'
