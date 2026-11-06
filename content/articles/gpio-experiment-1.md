@@ -18,6 +18,10 @@ In this experiment, we'll configure a General-Purpose Input/Output (GPIO) pin, s
 
 > **Tested configuration:** Raspberry Pi 4 Model B Rev 1.5, Raspberry Pi OS Lite 64-bit, Linux kernel 6.18.50+rpt-rpi-v8. GPIO measurements obtained using a HABOTEST HT118D digital multimeter.
 
+![Raspberry Pi GPIO voltage measurement](/images/real-time-linux/raspberry-pi-gpio-voltage.png)
+
+*Raspberry Pi 4 GPIO18 voltage measurement setup.*
+
 ## 1. Understanding Raspberry Pi GPIO
 
 The Raspberry Pi 4 provides a 40-pin header that exposes digital input/output signals, power connections, ground connections and several specialised hardware interfaces.
