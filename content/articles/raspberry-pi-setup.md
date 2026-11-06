@@ -4,6 +4,7 @@ description: "Preparing a headless Raspberry Pi 4 as a Linux laboratory for kern
 topics:
   - real-time-linux
   - linux-internals
+reading_room: true
 ---
 
 A Raspberry Pi is a useful platform for exploring Linux internals. It runs a conventional Linux kernel, provides direct access to hardware interfaces, and can be controlled entirely from a remote terminal.

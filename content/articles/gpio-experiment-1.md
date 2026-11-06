@@ -4,6 +4,7 @@ description: "Control Raspberry Pi GPIO18 from Linux and verify HIGH and LOW out
 topics:
   - real-time-linux
   - linux-internals
+reading_room: true
 ---
 
 *Controlling a Raspberry Pi GPIO pin and verifying its electrical output.*

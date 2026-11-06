@@ -4,6 +4,7 @@ description: "Inspecting kernel preemption on a Raspberry Pi 4 and distinguishin
 topics:
   - real-time-linux
   - linux-internals
+reading_room: true
 ---
 
 *Inspecting kernel preemption on a Raspberry Pi 4.*

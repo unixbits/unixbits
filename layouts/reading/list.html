@@ -12,7 +12,7 @@
   <section class="topic-section">
     <h2>Original articles</h2>
 
-    {{ $articles := where site.RegularPages "Section" "articles" }}
+    {{ $articles := where site.RegularPages "Params.reading_room" true }}
 
     {{ range $articles.ByTitle }}
     <article class="topic-entry">

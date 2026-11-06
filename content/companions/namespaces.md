@@ -4,6 +4,7 @@ topics:
 title: "Linux namespaces: a process with its own view"
 description: "Explore PID namespaces with unshare, compare process IDs from inside and outside, and discover why /proc matters."
 label: "LINUX INTERNALS · PRACTICAL LAB"
+reading_room: true
 featured: true
 visual: visual-one
 book_chapter: "Chapter 8 — Containers"
