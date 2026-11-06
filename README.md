@@ -220,7 +220,6 @@ Before deploying to GitHub Pages:
 
 - Set `baseURL` in `hugo.toml` to the final public address.
 - Configure the GitHub repository and Hugo build workflow.
-- Review placeholder pages and illustrative articles.
 - Verify internal links and external references.
 - Test the production build.
 
