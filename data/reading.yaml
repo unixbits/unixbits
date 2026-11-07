@@ -74,7 +74,7 @@
     - unix-history
     - unix-tools
 
-- title: "Explaining BSD"
+- title: "Comparing BSD and Linux"
   url: https://docs.freebsd.org/en/articles/explaining-bsd/
   description: "What distinguishes BSD from Linux beyond the kernel and licensing? A discussion of development organisation, source-tree integration and the BSD projects. Some comparisons also provide a useful historical perspective."
   topics:
@@ -144,3 +144,9 @@
   topics:
     - unix-tools
     - unix-history
+
+- title: "VIM Adventures"
+  url: https://vim-adventures.com/
+  description: "An interactive game for learning Vim commands and navigation."
+  topics:
+    - unix-tools
