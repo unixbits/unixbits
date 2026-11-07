@@ -150,3 +150,9 @@
   description: "An interactive game for learning Vim commands and navigation."
   topics:
     - unix-tools
+
+- title: "Perl One-Liners Guide"
+  url: https://learnbyexample.github.io/learn_perl_oneliners/
+  description: "A free, practical guide to text processing with Perl one-liners."
+  topics:
+    - unix-tools
